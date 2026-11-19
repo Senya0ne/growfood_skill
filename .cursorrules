@@ -1,0 +1,16 @@
+# growfood-skill — Cursor Rules
+
+This project is an AI agent skill for managing Grow Food meal delivery subscriptions.
+
+**Read `SKILL.md` for the full instruction set** — it contains all commands, scenarios,
+rules, and behavioral constraints. Follow it exactly.
+
+Key points:
+- All actions go through the script: `python3 ./scripts/growfood.py --json <command>`
+- Never call API endpoints directly
+- Never invoke payment endpoints
+- Never bypass captcha
+- Respond in Russian, keep it short
+- Respect 🔒 days (locked), only modify ✏️ days (editable)
+- `--allow-extra` only with explicit user consent per dish
+- Token handling: never log, never commit, never echo back to user

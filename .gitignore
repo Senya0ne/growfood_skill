@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.har
+# User config (tokens, preferences) — never commit
+config.json
+token.json
+taste.json
+state.json
